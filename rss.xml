@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Aug 2022 07:52:28 GMT</lastBuildDate><item><title><![CDATA[GCP概要]]></title><description><![CDATA[GCPのメリット GCPのデメリット サービスにアクセスする方法   リージョンとゾーン  GCPサービス GCPサービスと他サービス サービス GCP AWS Azure コンピューティング Compute Engine EC2 Azure Virtual machines…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCPのメリット&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Aug 2022 07:55:12 GMT</lastBuildDate><item><title><![CDATA[クラウドサービスについて]]></title><description><![CDATA[GCP(Google Cloud Platform) クラウドサービス Chinese Salty Egg 参照：
+創業手帳
+https://sogyotecho.jp/saas-paas-iaas/ クラウドサービスのメリット クラウドサービスのデメリット…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/クラウドサービスについて/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/クラウドサービスについて/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCP(Google Cloud Platform)&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Googleが提供するクラウドサービス。googleが社内で使っているテクノロジーをそのまま使える。
+物理アセットと仮想マシンで構成される。（超でかいPCを論理的に分割)
+
+世界中のデータセンターで管理されている。アジア、オーストラリア、ヨーロッパ、北米、南米リージョンで構成される。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;クラウドサービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;IaaS,PaaS,SaaS
+IaaS:OS等が入っていない空のPC
+PasS:OSやミドルウェアがインストールされているもの
+SaaS:アプリケーションを提供するサービス。
+
+GCPはIaaS,PaaSの機能を提供&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://sogyotecho.jp/wp-content/uploads/2021/05/unnamed-2.png&quot; alt=&quot;Chinese Salty Egg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;参照：
+創業手帳
+&lt;a href=&quot;https://sogyotecho.jp/saas-paas-iaas/&quot;&gt;https://sogyotecho.jp/saas-paas-iaas/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;クラウドサービスのメリット&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;完成された仕組みをスピーディに手に入れられる。
+初期コストが安い
+冗長性の高いインフラ
+ユーザー管理がしやすい（リモートデスクトップ）&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;クラウドサービスのデメリット&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;幅広い知識が必要。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;3第クラウド比較&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;AWSの歴史が最も長い（2006年）  
+GCP(2009)  
+Azure(2010)  
+
+
+AWS:仮想プライベートネットワークをベースに作成していく。
+安全なネットワークを作っていくことができる。ユーザーニーズの取り込みが早く、サービスが多い。
+マニュアルはわかりくい。他サービスと比べて自由度が高い（高度な設定ができる）
+シェア:33%
+
+GCP：AWSと比べると外部ネットワークに重点。GoogleMap等のサービスをGCPで提供しているので、冗長性はAWSより
+容易に構築できる。高度なサービスを作る場合はAWSより簡単。管理アカウントの下にプロジェクトを作成。マニュアルすごくわかりにくい。
+シェア:10%
+
+
+Azure:AWSとGCPの中間的。
+オンプレ社内システムをMicrosoftベースに構築している場合に便利。マニュアルがわかりやすい。
+シェア:20%&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;課金体系&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;GCP
+おおむね秒単位
+
+AWS
+秒単位、時間単位が混在
+ELB,RDS等は時間単位
+
+Azure
+おおむね分単位&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GCP概要]]></title><description><![CDATA[GCPのメリット GCPのデメリット サービスにアクセスする方法   リージョンとゾーン  GCPサービス GCPサービスと他サービス サービス GCP AWS Azure コンピューティング Compute Engine EC2 Azure Virtual machines…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCPのメリット&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ディープラーニングや人工知能開発に向いている。
 Tensorflowとの親和性が高い。ビッグデータを扱う技術に長けている。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;GCPのデメリット&lt;/h2&gt;
@@ -12,7 +65,7 @@ GUIでいろんなリソースを管理。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8f75e4c375db1de1c84027e2eb31fb80/3cb25/rapture_20220804175940.jpg&quot;
+    href=&quot;/-/static/8f75e4c375db1de1c84027e2eb31fb80/3cb25/rapture_20220804175940.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -25,13 +78,13 @@ GUIでいろんなリソースを管理。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/static/8f75e4c375db1de1c84027e2eb31fb80/828fb/rapture_20220804175940.jpg&quot;
-        srcset=&quot;/static/8f75e4c375db1de1c84027e2eb31fb80/ff44c/rapture_20220804175940.jpg 158w,
-/static/8f75e4c375db1de1c84027e2eb31fb80/a6688/rapture_20220804175940.jpg 315w,
-/static/8f75e4c375db1de1c84027e2eb31fb80/828fb/rapture_20220804175940.jpg 630w,
-/static/8f75e4c375db1de1c84027e2eb31fb80/0ede0/rapture_20220804175940.jpg 945w,
-/static/8f75e4c375db1de1c84027e2eb31fb80/3ac88/rapture_20220804175940.jpg 1260w,
-/static/8f75e4c375db1de1c84027e2eb31fb80/3cb25/rapture_20220804175940.jpg 1842w&quot;
+        src=&quot;/-/static/8f75e4c375db1de1c84027e2eb31fb80/828fb/rapture_20220804175940.jpg&quot;
+        srcset=&quot;/-/static/8f75e4c375db1de1c84027e2eb31fb80/ff44c/rapture_20220804175940.jpg 158w,
+/-/static/8f75e4c375db1de1c84027e2eb31fb80/a6688/rapture_20220804175940.jpg 315w,
+/-/static/8f75e4c375db1de1c84027e2eb31fb80/828fb/rapture_20220804175940.jpg 630w,
+/-/static/8f75e4c375db1de1c84027e2eb31fb80/0ede0/rapture_20220804175940.jpg 945w,
+/-/static/8f75e4c375db1de1c84027e2eb31fb80/3ac88/rapture_20220804175940.jpg 1260w,
+/-/static/8f75e4c375db1de1c84027e2eb31fb80/3cb25/rapture_20220804175940.jpg 1842w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -47,7 +100,7 @@ GUIでいろんなリソースを管理。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/996427e9515f50ae077b970ea0c6b1a1/5583a/rapture_20220804181353.jpg&quot;
+    href=&quot;/-/static/996427e9515f50ae077b970ea0c6b1a1/5583a/rapture_20220804181353.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -60,13 +113,13 @@ GUIでいろんなリソースを管理。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/static/996427e9515f50ae077b970ea0c6b1a1/828fb/rapture_20220804181353.jpg&quot;
-        srcset=&quot;/static/996427e9515f50ae077b970ea0c6b1a1/ff44c/rapture_20220804181353.jpg 158w,
-/static/996427e9515f50ae077b970ea0c6b1a1/a6688/rapture_20220804181353.jpg 315w,
-/static/996427e9515f50ae077b970ea0c6b1a1/828fb/rapture_20220804181353.jpg 630w,
-/static/996427e9515f50ae077b970ea0c6b1a1/0ede0/rapture_20220804181353.jpg 945w,
-/static/996427e9515f50ae077b970ea0c6b1a1/3ac88/rapture_20220804181353.jpg 1260w,
-/static/996427e9515f50ae077b970ea0c6b1a1/5583a/rapture_20220804181353.jpg 1789w&quot;
+        src=&quot;/-/static/996427e9515f50ae077b970ea0c6b1a1/828fb/rapture_20220804181353.jpg&quot;
+        srcset=&quot;/-/static/996427e9515f50ae077b970ea0c6b1a1/ff44c/rapture_20220804181353.jpg 158w,
+/-/static/996427e9515f50ae077b970ea0c6b1a1/a6688/rapture_20220804181353.jpg 315w,
+/-/static/996427e9515f50ae077b970ea0c6b1a1/828fb/rapture_20220804181353.jpg 630w,
+/-/static/996427e9515f50ae077b970ea0c6b1a1/0ede0/rapture_20220804181353.jpg 945w,
+/-/static/996427e9515f50ae077b970ea0c6b1a1/3ac88/rapture_20220804181353.jpg 1260w,
+/-/static/996427e9515f50ae077b970ea0c6b1a1/5583a/rapture_20220804181353.jpg 1789w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -96,7 +149,7 @@ Azure
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2bd897804e406b95528af44663af81fb/5e3c2/rapture_20220805180514.jpg&quot;
+    href=&quot;/-/static/2bd897804e406b95528af44663af81fb/5e3c2/rapture_20220805180514.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -109,13 +162,13 @@ Azure
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/static/2bd897804e406b95528af44663af81fb/828fb/rapture_20220805180514.jpg&quot;
-        srcset=&quot;/static/2bd897804e406b95528af44663af81fb/ff44c/rapture_20220805180514.jpg 158w,
-/static/2bd897804e406b95528af44663af81fb/a6688/rapture_20220805180514.jpg 315w,
-/static/2bd897804e406b95528af44663af81fb/828fb/rapture_20220805180514.jpg 630w,
-/static/2bd897804e406b95528af44663af81fb/0ede0/rapture_20220805180514.jpg 945w,
-/static/2bd897804e406b95528af44663af81fb/3ac88/rapture_20220805180514.jpg 1260w,
-/static/2bd897804e406b95528af44663af81fb/5e3c2/rapture_20220805180514.jpg 1288w&quot;
+        src=&quot;/-/static/2bd897804e406b95528af44663af81fb/828fb/rapture_20220805180514.jpg&quot;
+        srcset=&quot;/-/static/2bd897804e406b95528af44663af81fb/ff44c/rapture_20220805180514.jpg 158w,
+/-/static/2bd897804e406b95528af44663af81fb/a6688/rapture_20220805180514.jpg 315w,
+/-/static/2bd897804e406b95528af44663af81fb/828fb/rapture_20220805180514.jpg 630w,
+/-/static/2bd897804e406b95528af44663af81fb/0ede0/rapture_20220805180514.jpg 945w,
+/-/static/2bd897804e406b95528af44663af81fb/3ac88/rapture_20220805180514.jpg 1260w,
+/-/static/2bd897804e406b95528af44663af81fb/5e3c2/rapture_20220805180514.jpg 1288w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -351,57 +404,4 @@ GCPと親和性高い。
 
 7.AI Building Blocks
 GoogleCloudが提供するAIサービスの総称。
-データの前処理、モデル構築、評価、実装をGCP側で行うため、ユーザーはデータのみ用意すればよい。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[クラウドサービスについて]]></title><description><![CDATA[GCP(Google Cloud Platform) クラウドサービス Chinese Salty Egg 参照：
-創業手帳
-https://sogyotecho.jp/saas-paas-iaas/ クラウドサービスのメリット クラウドサービスのデメリット…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/クラウドサービスについて/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/クラウドサービスについて/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCP(Google Cloud Platform)&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Googleが提供するクラウドサービス。googleが社内で使っているテクノロジーをそのまま使える。
-物理アセットと仮想マシンで構成される。（超でかいPCを論理的に分割)
-
-世界中のデータセンターで管理されている。アジア、オーストラリア、ヨーロッパ、北米、南米リージョンで構成される。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;クラウドサービス&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;IaaS,PaaS,SaaS
-IaaS:OS等が入っていない空のPC
-PasS:OSやミドルウェアがインストールされているもの
-SaaS:アプリケーションを提供するサービス。
-
-GCPはIaaS,PaaSの機能を提供&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://sogyotecho.jp/wp-content/uploads/2021/05/unnamed-2.png&quot; alt=&quot;Chinese Salty Egg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;参照：
-創業手帳
-&lt;a href=&quot;https://sogyotecho.jp/saas-paas-iaas/&quot;&gt;https://sogyotecho.jp/saas-paas-iaas/&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;クラウドサービスのメリット&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;完成された仕組みをスピーディに手に入れられる。
-初期コストが安い
-冗長性の高いインフラ
-ユーザー管理がしやすい（リモートデスクトップ）&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;クラウドサービスのデメリット&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;幅広い知識が必要。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;3第クラウド比較&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;AWSの歴史が最も長い（2006年）  
-GCP(2009)  
-Azure(2010)  
-
-
-AWS:仮想プライベートネットワークをベースに作成していく。
-安全なネットワークを作っていくことができる。ユーザーニーズの取り込みが早く、サービスが多い。
-マニュアルはわかりくい。他サービスと比べて自由度が高い（高度な設定ができる）
-シェア:33%
-
-GCP：AWSと比べると外部ネットワークに重点。GoogleMap等のサービスをGCPで提供しているので、冗長性はAWSより
-容易に構築できる。高度なサービスを作る場合はAWSより簡単。管理アカウントの下にプロジェクトを作成。マニュアルすごくわかりにくい。
-シェア:10%
-
-
-Azure:AWSとGCPの中間的。
-オンプレ社内システムをMicrosoftベースに構築している場合に便利。マニュアルがわかりやすい。
-シェア:20%&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;課金体系&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;GCP
-おおむね秒単位
-
-AWS
-秒単位、時間単位が混在
-ELB,RDS等は時間単位
-
-Azure
-おおむね分単位&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+データの前処理、モデル構築、評価、実装をGCP側で行うため、ユーザーはデータのみ用意すればよい。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
