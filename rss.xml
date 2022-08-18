@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Aug 2022 06:43:52 GMT</lastBuildDate><item><title><![CDATA[GCP概要]]></title><description><![CDATA[GCPのメリット GCPのデメリット サービスにアクセスする方法   リージョンとゾーン  GCPサービス GCPサービスと他サービス サービス GCP AWS Azure コンピューティング Compute Engine EC2 Azure Virtual machines…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCPのメリット&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ディープラーニングや人工知能開発に向いている。
+Tensorflowとの親和性が高い。ビッグデータを扱う技術に長けている。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;GCPのデメリット&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;日本語の情報が少ない&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;サービスにアクセスする方法&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1. Google Cloud コンソール
+GUIでいろんなリソースを管理。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8f75e4c375db1de1c84027e2eb31fb80/3cb25/rapture_20220804175940.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.60759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABuBAP/8QAFhAAAwAAAAAAAAAAAAAAAAAAAAES/9oACAEBAAEFApRKJR//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAADAAAAAAAAAAAAAAAAAAAAATH/2gAIAQEABj8CiIiI/8QAFxABAQEBAAAAAAAAAAAAAAAAAPEhwf/aAAgBAQABPyHXkjIz/9oADAMBAAIAAwAAABAP/wD/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QiIj/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QrKz/xAAZEAACAwEAAAAAAAAAAAAAAAAAARGx0fH/2gAIAQEAAT8QWIjhdE5k/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/8f75e4c375db1de1c84027e2eb31fb80/828fb/rapture_20220804175940.jpg&quot;
+        srcset=&quot;/static/8f75e4c375db1de1c84027e2eb31fb80/ff44c/rapture_20220804175940.jpg 158w,
+/static/8f75e4c375db1de1c84027e2eb31fb80/a6688/rapture_20220804175940.jpg 315w,
+/static/8f75e4c375db1de1c84027e2eb31fb80/828fb/rapture_20220804175940.jpg 630w,
+/static/8f75e4c375db1de1c84027e2eb31fb80/0ede0/rapture_20220804175940.jpg 945w,
+/static/8f75e4c375db1de1c84027e2eb31fb80/3ac88/rapture_20220804175940.jpg 1260w,
+/static/8f75e4c375db1de1c84027e2eb31fb80/3cb25/rapture_20220804175940.jpg 1842w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;2. Google Cloud CLI
+ターミナルで作業可能。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/996427e9515f50ae077b970ea0c6b1a1/5583a/rapture_20220804181353.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.56962025316456%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAc5ZKXIB/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECEiD/2gAIAQEAAQUCds3RuuP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAACAwAAAAAAAAAAAAAAAAAA4SBBkf/aAAgBAQAGPwKsEKH/xAAaEAACAgMAAAAAAAAAAAAAAAAAAWGRECGh/9oACAEBAAE/IVXrgTKhMqDz/9oADAMBAAIAAwAAABCAD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAAIDAQAAAAAAAAAAAAAAAADwEDHBUf/aAAgBAQABPxChDcEfBPwrP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/996427e9515f50ae077b970ea0c6b1a1/828fb/rapture_20220804181353.jpg&quot;
+        srcset=&quot;/static/996427e9515f50ae077b970ea0c6b1a1/ff44c/rapture_20220804181353.jpg 158w,
+/static/996427e9515f50ae077b970ea0c6b1a1/a6688/rapture_20220804181353.jpg 315w,
+/static/996427e9515f50ae077b970ea0c6b1a1/828fb/rapture_20220804181353.jpg 630w,
+/static/996427e9515f50ae077b970ea0c6b1a1/0ede0/rapture_20220804181353.jpg 945w,
+/static/996427e9515f50ae077b970ea0c6b1a1/3ac88/rapture_20220804181353.jpg 1260w,
+/static/996427e9515f50ae077b970ea0c6b1a1/5583a/rapture_20220804181353.jpg 1789w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;3. API&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;リージョンとゾーン&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;リージョン
+GCPがサービスを提供する地域
+データセンターをお設置している地域
+
+ゾーン
+各リージョン内にある論理的なデータセンター。
+リージョン毎に3つ以上存在
+
+GCP
+20リージョン、61ゾーン
+AWS
+21リージョン、66AZ
+Azure
+55リージョン&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2bd897804e406b95528af44663af81fb/5e3c2/rapture_20220805180514.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHtU1kA/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEgIf/aAAgBAQABBQJmz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAAgYf/aAAgBAQAGPwIi/wD/xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhMSD/2gAIAQEAAT8h2Y8iXxoQ54//2gAMAwEAAgADAAAAENAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAgICAwAAAAAAAAAAAAAAAREAMRAhQWFx/9oACAEBAAE/EBLE2ItiGG9QjyUbfZnOf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/2bd897804e406b95528af44663af81fb/828fb/rapture_20220805180514.jpg&quot;
+        srcset=&quot;/static/2bd897804e406b95528af44663af81fb/ff44c/rapture_20220805180514.jpg 158w,
+/static/2bd897804e406b95528af44663af81fb/a6688/rapture_20220805180514.jpg 315w,
+/static/2bd897804e406b95528af44663af81fb/828fb/rapture_20220805180514.jpg 630w,
+/static/2bd897804e406b95528af44663af81fb/0ede0/rapture_20220805180514.jpg 945w,
+/static/2bd897804e406b95528af44663af81fb/3ac88/rapture_20220805180514.jpg 1260w,
+/static/2bd897804e406b95528af44663af81fb/5e3c2/rapture_20220805180514.jpg 1288w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;GCPサービス&lt;/h2&gt;
+&lt;h3&gt;GCPサービスと他サービス&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;サービス&lt;/th&gt;
+&lt;th&gt;GCP&lt;/th&gt;
+&lt;th&gt;AWS&lt;/th&gt;
+&lt;th&gt;Azure&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;コンピューティング&lt;/td&gt;
+&lt;td&gt;Compute Engine&lt;/td&gt;
+&lt;td&gt;EC2&lt;/td&gt;
+&lt;td&gt;Azure Virtual machines&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;コンテナ&lt;/td&gt;
+&lt;td&gt;Google kubernetes Engine&lt;/td&gt;
+&lt;td&gt;ECS&lt;br&gt;EKS&lt;br&gt;Fargate&lt;/td&gt;
+&lt;td&gt;Azure Container Instances &lt;br&gt;Azure Kubernetes Service&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サーバーレスサービス&lt;/td&gt;
+&lt;td&gt;Cloud Functions&lt;/td&gt;
+&lt;td&gt;Amazon lambda&lt;/td&gt;
+&lt;td&gt;Azure Functions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ネットワーク&lt;/td&gt;
+&lt;td&gt;Virtual Private Cloud&lt;/td&gt;
+&lt;td&gt;Amazon VPC&lt;/td&gt;
+&lt;td&gt;Virtual Newwork&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;管理&lt;/td&gt;
+&lt;td&gt;Cloud IAM&lt;/td&gt;
+&lt;td&gt;AWS IAM&lt;/td&gt;
+&lt;td&gt;Azure AD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ストレージ&lt;/td&gt;
+&lt;td&gt;Cloud Storage&lt;br&gt;Persistent Disk&lt;br&gt;Cloud Filestore&lt;/td&gt;
+&lt;td&gt;Amazon S3&lt;br&gt;EBS&lt;br&gt;EFS&lt;/td&gt;
+&lt;td&gt;Azure Blob Storage&lt;br&gt;Managed Disk&lt;br&gt;Azure Files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DB&lt;/td&gt;
+&lt;td&gt;Cloud SQL&lt;br&gt;Cloud Spanner&lt;/td&gt;
+&lt;td&gt;RDS&lt;/td&gt;
+&lt;td&gt;Azure SQL Database&lt;br&gt;Azure Database for MySql/Postgre Sql&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DWH&lt;/td&gt;
+&lt;td&gt;BigQuery&lt;/td&gt;
+&lt;td&gt;Redshift&lt;/td&gt;
+&lt;td&gt;Azure Synapse Analytics&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;モニタリング&lt;/td&gt;
+&lt;td&gt;Cloud Monitoring&lt;/td&gt;
+&lt;td&gt;Amazon CloudWatch&lt;/td&gt;
+&lt;td&gt;Azure monitor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;機械学習&lt;/td&gt;
+&lt;td&gt;Vertex AI&lt;/td&gt;
+&lt;td&gt;Amazon Machine Learning&lt;/td&gt;
+&lt;td&gt;Azure Machine Learning&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;マネジメントサービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.Cloud IAM
+「誰がどのリソースに対して、何ができる？」
+
+2.Cloud logging
+ログを集計、分析
+
+3.Cloud Monitoring
+Cloud loggingで集計されたログに対し、エラー発生件数や対応の管理、通知&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;コンピュートサービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.Compute Engine
+使用可能なイメージ（OS）
+devian,ubunts,centos,fedora coreos
+
+マシンタイプ
+汎用　
+コンピューティング最適化
+メモリ最適化
+GPU　機械学習、ハイパフォーマンスコンピューティング、
+
+2.kubernetes engine
+ヘルスチェックやオートスケーリングを自動で行ってくれる。
+
+3.App Engine
+バックエンドを構築できるサーバーレスPF。
+使用できる言語が限定されている。
+
+
+4.Cloud Functions
+各種イベントをトリガーに、関数を実行するサーバーレスサービス。
+使用例）cloud strageへのファイルアップロードをトリガーにファイルを編集。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.gstatic.com/bricks/image/e95d4c33e1af335c2eeff991f3731fc78d46e448b7a578933b4503767da4c293.svg&quot; alt=&quot;Chinese Salty Egg&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;5.Cloud Run
+コンテナを動かすサーバーレスサービス。
+DockerfileとCloud Buildによりコンテナ環境をデプロイ。
+
+6.Cloud Build
+CI/CDを行うサービス。コードの変更に対し、自動的にテスト、リポジトリにアップロード、本番環境に導入。
+
+7.Anthos
+ハイブリッドクラウドに対応したアプリケーション管理プラットフォーム。
+稼働中のシステムを最新化（モダナイゼーション）を実現。
+
+managed services&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;ストレージサービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.Cloud Storage
+高耐久性（イレブンナイン）
+高可用性
+暗号化（保存時、通信時（TLS)、Endpointまで）
+使用例：バックアップ、アーカイブ、共有ストレージ
+
+アクセス管理可能
+IAM,ACL
+
+2.Transfer Appliance
+外部環境（他クラウド、オンプレミス）からGCP環境にデータ転送を行う。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;ネットワークサービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.Virtual Private Cloud
+Google Cloud上に配置するクラウド空間
+&gt;サブネット・・・VPC内に構成するネットワーク空間。GCPリソースを配置。
+
+VPC間の通信、サブネット間の通信が可能。
+
+ファイアウォールの設定が可能&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://cloud.google.com/static/vpc/images/vpc-overview-example.svg?hl=ja&quot; alt=&quot;Chinese Salty Egg&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;2.Cloud Load Balancing
+負荷分散。複数リージョン、ゾーンにまたがって分散可能
+外部負荷分散：インターネットからのトラフィックを負荷分散
+内部負荷分散：VPCネットワーク内部で負荷分散
+
+3.Cloud　CDN（conteents Deliverly Newwork)
+オリジンサーバーのキャッシュ機能。
+レスポンス向上とオリジンサーバーの負荷軽減。
+
+4.Cloud DNS
+名前解決のサービス。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;データベースサービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.Cloud SQL　(RDS)
+MySQL,PostgreSQL,SQL Server
+
+2.Cloud Bigtable(NoSQL)
+フルマネージドのkey,valueストア型DB
+大規模データを高速に処理
+低レイテンシで高い応答性能が求められる分析に向く
+再起動を行わずにスケール
+
+3.Firestore(NoSQL)
+サーバーを介さずクライアントから直接アクセス可能。
+ドキュメント型データベース。
+
+4.Firebase Realtime Database(NoSQL)
+リアルタイムでデータを保存してユーザー間で同期できる。クラウドホスト型noSQL。
+・オフライン時にデータを永続化
+・クライアントから直接接続可能
+
+
+5.Memorystore NoSQL (key,value型)
+In memory型DB(IMDB)
+データをメインメモリ（RAM)上に保存するため高速。
+データは揮発性になる。
+Redis型とMemcached型がある。
+使用例）セッション情報、リアルタイム分析等
+
+6.Cloud Spanner
+RDBの強整合性とNoSQLのスケーリングの特徴を組み合わせたDB
+使用例)ゲームサービスのバックエンド&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;機械学習系サービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;データパイプライン:データを収集して分析するまでの一連の処理
+収集&gt;処理&gt;蓄積&gt;分析&gt;活用&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.hitachi.co.jp/products/it/bigdata/platform/pentaho/article/data-pipeline/images/data-pipeline_img.gif&quot; alt=&quot;Chinese Salty Egg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;参照：
+HITACHI データ分析を成功へと導くデータパイプライン
+&lt;a href=&quot;https://www.hitachi.co.jp/products/it/bigdata/platform/pentaho/article/data-pipeline/data-pipeline.html#dsp_img&quot;&gt;https://www.hitachi.co.jp/products/it/bigdata/platform/pentaho/article/data-pipeline/data-pipeline.html#dsp_img&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;収集&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.cloud Pub/Sub
+多対多の非同期のメッセージングサービス。キューに保存。
+サービス間を疎結合にする。
+非同期化することで大量のデータをリアルタイムに処理できる。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;処理&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;2.Cloud Dataflow
+データパイプラインを実行するためのマネージドサービス。
+データの処理やフィルタリングを行う。
+バッチとストリーミングに対応
+
+3.Cloud Dataprep
+データクレンジングを行うサービス。（データ処理を行う前に型をそろえたりする）
+GUI操作でデータの探索、変換、異常値の検出が可能。
+
+4.Cloud Composer
+Apatch Airflow（ジョブ管理ツール）のマネージドツール。
+ビッグデータのデータパイプラインのジョブ管理。
+バッチのジョブを管理。
+
+5.BigQuery
+フルマネージドのデータウェアハウスサービス。
+マニュアル、バッチ、ストリーミングでデータインポートや格納
+クエリを実行して分析。
+
+
+ペタバイト規模の大規模データに対して、高速なクエリの実行
+データ量に応じて、自動でスケールアウト
+
+6.TensorFlow
+機械学習向けに開発されたオープンソースプラットフォーム。
+GCPと親和性高い。
+
+構造化データ
+分類、回帰、予測、検出
+
+非構造化データ
+画像分析、テキスト分析
+
+7.AI Building Blocks
+GoogleCloudが提供するAIサービスの総称。
+データの前処理、モデル構築、評価、実装をGCP側で行うため、ユーザーはデータのみ用意すればよい。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[クラウドサービスについて]]></title><description><![CDATA[GCP(Google Cloud Platform) クラウドサービス Chinese Salty Egg 参照：
+創業手帳
+https://sogyotecho.jp/saas-paas-iaas/ クラウドサービスのメリット クラウドサービスのデメリット…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/クラウドサービスについて/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/クラウドサービスについて/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCP(Google Cloud Platform)&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Googleが提供するクラウドサービス。googleが社内で使っているテクノロジーをそのまま使える。
+物理アセットと仮想マシンで構成される。（超でかいPCを論理的に分割)
+
+世界中のデータセンターで管理されている。アジア、オーストラリア、ヨーロッパ、北米、南米リージョンで構成される。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;クラウドサービス&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;IaaS,PaaS,SaaS
+IaaS:OS等が入っていない空のPC
+PasS:OSやミドルウェアがインストールされているもの
+SaaS:アプリケーションを提供するサービス。
+
+GCPはIaaS,PaaSの機能を提供&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://sogyotecho.jp/wp-content/uploads/2021/05/unnamed-2.png&quot; alt=&quot;Chinese Salty Egg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;参照：
+創業手帳
+&lt;a href=&quot;https://sogyotecho.jp/saas-paas-iaas/&quot;&gt;https://sogyotecho.jp/saas-paas-iaas/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;クラウドサービスのメリット&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;完成された仕組みをスピーディに手に入れられる。
+初期コストが安い
+冗長性の高いインフラ
+ユーザー管理がしやすい（リモートデスクトップ）&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;クラウドサービスのデメリット&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;幅広い知識が必要。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;3第クラウド比較&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;AWSの歴史が最も長い（2006年）  
+GCP(2009)  
+Azure(2010)  
+
+
+AWS:仮想プライベートネットワークをベースに作成していく。
+安全なネットワークを作っていくことができる。ユーザーニーズの取り込みが早く、サービスが多い。
+マニュアルはわかりくい。他サービスと比べて自由度が高い（高度な設定ができる）
+シェア:33%
+
+GCP：AWSと比べると外部ネットワークに重点。GoogleMap等のサービスをGCPで提供しているので、冗長性はAWSより
+容易に構築できる。高度なサービスを作る場合はAWSより簡単。管理アカウントの下にプロジェクトを作成。マニュアルすごくわかりにくい。
+シェア:10%
+
+
+Azure:AWSとGCPの中間的。
+オンプレ社内システムをMicrosoftベースに構築している場合に便利。マニュアルがわかりやすい。
+シェア:20%&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;課金体系&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;GCP
+おおむね秒単位
+
+AWS
+秒単位、時間単位が混在
+ELB,RDS等は時間単位
+
+Azure
+おおむね分単位&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
