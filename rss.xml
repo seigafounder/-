@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Aug 2022 07:58:27 GMT</lastBuildDate><item><title><![CDATA[GCP概要]]></title><description><![CDATA[GCPのメリット GCPのデメリット サービスにアクセスする方法   リージョンとゾーン  GCPサービス GCPサービスと他サービス サービス GCP AWS Azure コンピューティング Compute Engine EC2 Azure Virtual machines…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCPのメリット&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 14 Sep 2022 07:58:44 GMT</lastBuildDate><item><title><![CDATA[gRPC概要]]></title><description><![CDATA[rpc(remote procedure call) gRPCとは gRPCとREST API 開発の流れ 
+参照：What is gRPC
+https://www.grpc.io/docs/what-is-grpc/introduction/]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/grpc概要/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/grpc概要/</guid><pubDate>Wed, 14 Sep 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;rpc(remote procedure call)&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;関数呼び出しを別の環境に接続して代わりに行う。
+→バックエンドとクライアントがAPI通信ではなく、関数呼び出しでつながる。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;gRPCとは&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;rpcを実現するためにgoogleが開発したプロトコルの一つ。
+API仕様をprotocol bufferとして定義してクライアント、サーバーに対してそれぞれコードを生成。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;gRPCとREST API&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.JSONの代わりにprotocol buffer
+2.HTTP1.1ではなくHTTP2
+3.7~10倍の速さのメッセージ送信
+4.情報が少ないため実装に時間がかかる&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;開発の流れ&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1.gRPCの利用に必要なツールやライブラリのインストール
+2.Protocol Buffersを使ったサービスの定義
+3.サービス定義ファイルからのコードの生成&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.16455696202532%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABuylMGgY//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECMQP/2gAIAQEAAQUCV076CwtCz//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAwEBPwExf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAIDAAAAAAAAAAAAAAAAABEhAAEg/9oACAEBAAY/AgFKYz//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMRBRcf/aAAgBAQABPyFAiZZuAW9/U0ecE1iaJ//aAAwDAQACAAMAAAAQb+//xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxAo87jl/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/EBV//8QAGhABAQEBAQEBAAAAAAAAAAAAAREhAFEQMf/aAAgBAQABPxC0agCrPzoVhYlL2d7jffiVjLwhnh3/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;grpc 通信&quot;
+        title=&quot;grpc 通信&quot;
+        src=&quot;/study/static/705460b048473a9f3862f80ef84eb402/828fb/rapture_20220914162145.jpg&quot;
+        srcset=&quot;/study/static/705460b048473a9f3862f80ef84eb402/ff44c/rapture_20220914162145.jpg 158w,
+/study/static/705460b048473a9f3862f80ef84eb402/a6688/rapture_20220914162145.jpg 315w,
+/study/static/705460b048473a9f3862f80ef84eb402/828fb/rapture_20220914162145.jpg 630w,
+/study/static/705460b048473a9f3862f80ef84eb402/70ab1/rapture_20220914162145.jpg 725w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;
+参照：What is gRPC
+&lt;a href=&quot;https://www.grpc.io/docs/what-is-grpc/introduction/&quot;&gt;https://www.grpc.io/docs/what-is-grpc/introduction/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GCP概要]]></title><description><![CDATA[GCPのメリット GCPのデメリット サービスにアクセスする方法   リージョンとゾーン  GCPサービス GCPサービスと他サービス サービス GCP AWS Azure コンピューティング Compute Engine EC2 Azure Virtual machines…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/GCP概要/</guid><pubDate>Thu, 04 Aug 2022 23:46:37 GMT</pubDate><content:encoded>&lt;h2&gt;GCPのメリット&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ディープラーニングや人工知能開発に向いている。
 Tensorflowとの親和性が高い。ビッグデータを扱う技術に長けている。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;GCPのデメリット&lt;/h2&gt;
